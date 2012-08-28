@@ -1,0 +1,24 @@
+#sdk: "/Users/freemason/.rvm/gems/ruby-1.9.3-p194@rebrew/gems/rhodes-3.3.4"
+sdkversion: 3.3.4
+name: mobrew
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.mobrew
+  BundleURLScheme: mobrew
+wp:
+  productid: '1c075b70-d372-012f-2f8d-1040f38e2afc'
+symbian:
+  uid: '0xe895053d'
+android:
+  version: 2.1
+
+extensions: ["json", "another-extension"]
