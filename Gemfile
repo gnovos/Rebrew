@@ -14,6 +14,7 @@ gem 'friendly_id'
 gem 'formtastic'
 gem 'inherited_resources'
 gem 'ruby-conf', '1.6.0', :git => 'https://github.com/gnovos/ruby-conf.git'
+gem 'pg'
 
 
 # Gems used only for assets and not required
