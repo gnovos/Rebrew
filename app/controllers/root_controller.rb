@@ -1,2 +1,0 @@
-class RootController < InheritedResources
-end
